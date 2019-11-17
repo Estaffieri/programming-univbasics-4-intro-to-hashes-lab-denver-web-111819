@@ -22,6 +22,7 @@ def my_hash_creator(key, value)
   my_hash_creator = {
     :key => value
   }
+  +my_hash_creator
  
 end
 
