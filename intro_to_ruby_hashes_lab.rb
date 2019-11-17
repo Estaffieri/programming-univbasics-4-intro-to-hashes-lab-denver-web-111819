@@ -14,12 +14,12 @@ end
 
 def id_generator
   # return a hash with a key :id assigned to positive integer
- id_generator= { :id => "2"}
+ id_generator= { :id => "integer"}
 end
 
 def my_hash_creator(key, value)
   # return a hash that includes the key and value parameters passed into this method
-  my_hash_creator={"key"=> 
+  my_hash_creator={ :key => "value"}
 end
 
 def read_from_hash(hash, key)
